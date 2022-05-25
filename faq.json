@@ -3,19 +3,71 @@
         "categoryName": "Simple and Most Common",
         "categoryQuestions": [
             {
-                "question": "Generic Question?",
-                "answer": "Answer",
+                "question": "Do you like Medical/Surgical Gloves?",
+                "answer": "Yes, this should be very apparent in the number of photos I use for them.",
+                "tags": ["gloves", "medical", "surgical"]
+            },
+            {
+                "question": "When and What got you into Medical & Latex?",
+                "answer": "This is best answered from my About Me page which talks about the story in a lot better detail :)",
+                "tags": ["medical", "latex", "history"]
+            },
+            {
+                "question": "BSDM?",
+                "answer": "I am Sub AF, I do a bit of photos in a Dom fashion, but not really much of a switch at all.",
+                "tags": ["bsdm", "dom", "sub", "switch"]
+            },
+            {
+                "question": "How large is your collection of X?",
+                "answer": "It's always growing so putting a number in here will never really provide a define answered...",
+                "tags": ["latex", "gloves", "collection"]
+            }
+        ]
+    },
+
+    {
+        "categoryName": "Latex",
+        "categoryQuestions": [
+            {
+                "question": "Favourite item?",
+                "answer": "My Pussy Bow Dress by Catalyst Latex has got to be #1 especially because of how tight fitting it is on my Body and it really shows of my tatas.",
+                "tags": ["latex", "favourite"]
+            },
+            {
+                "question": "Latex in Public?",
+                "answer": "I've only ever done a few things with Clothes above it before, with even a few fun bits. Probably one of my best experiences has been a Latex Corset all day at Work, and then had a Drink and Pizza after work with my Dad... No one was the wiser.\nEventually I do wish to do a few Photoshoots outside but at the moment I am just far to shy.",
+                "tags": ["latex", "public"]
+            },
+            {
+                "question": "Does anyone close to you (Family, Friends) know about you Fetishes?",
+                "answer": "My whole Family who live with me know. 2 Stories here.\nMy Parents know because of I bought an Item off eBay which wasn't labelled to who the item was for. Inside was a Latex Item which was a pair of Short Shorts with the words 'Spank It' on the bum... That was a bad experience explaining it.\nMy Sister knows after being in my Black Catsuit while in VR. She just knocked and barged into my room and saw me there and then... She was fine, but scared her a little bit.",
+                "tags": ["latex", "know", "family", "friends"]
+            },
+            {
+                "question": "Why do I use Chlorinated Latex?",
+                "answer": "Cause I life with my Parents, this just makes it easier for me to hide the Latex. (Less Smell, Easier to get into, Easier cleaning)",
                 "tags": []
             }
         ]
     },
 
     {
-        "categoryName": "",
+        "categoryName": "Gloves and Medical stuff",
         "categoryQuestions": [
             {
-                "question": "Generic Question?",
-                "answer": "Answer",
+                "question": "Nothing just yet, will add more later",
+                "answer": "",
+                "tags": []
+            }
+        ]
+    },
+
+    {
+        "categoryName": "General / Other stuff",
+        "categoryQuestions": [
+            {
+                "question": "Nothing just yet, will add more later",
+                "answer": "",
                 "tags": []
             }
         ]

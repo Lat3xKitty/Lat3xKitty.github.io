@@ -33,130 +33,55 @@ function setupQuestions() {
     var $content = $('.content');
     $content.empty();
 
-    // $.ajax({
-    //     type: "GET",
-    //     url: "./faq.json",
-    //     dataType: "JSON",
-    //     success: function (response) {
-    //         for (let i = 0; i < response.length; i++) {
-    //             const questionCategory = response[i];
+    $.ajax({
+        type: "GET",
+        url: "./faq.json",
+        dataType: "JSON",
+        success: function (response) {
+            for (let i = 0; i < response.length; i++) {
+                const questionCategory = response[i];
 
-    //             $content.append(
-    //                 $('<h2>').text(questionCategory.categoryName)
-    //             );
+                $content.append(
+                    $('<h2>').text(questionCategory.categoryName)
+                );
 
-    //             var $categoryList = $('<ul>').addClass('faq')
-    //             for (let j = 0; j < questionCategory.categoryQuestions.length; j++) {
-    //                 const question = questionCategory.categoryQuestions[j];
+                var $categoryList = $('<ul>').addClass('faq')
+                for (let j = 0; j < questionCategory.categoryQuestions.length; j++) {
+                    const question = questionCategory.categoryQuestions[j];
 
-    //                 $categoryList.append(
-    //                     $('<li>')
-    //                         .addClass('question')
-    //                         .data(question.tags)
-    //                         .append(
-    //                             $('<h4>')
-    //                                 .append('<span>')
-    //                                 .append(document.createTextNode(
-    //                                     question.question
-    //                                 ))
-    //                         )
-    //                         .append(
-    //                             $('<div>')
-    //                                 .addClass('fq_icon')
-    //                                 .append('<span>')
-    //                                 .append('<span>')
-    //                         )
-    //                 );
-    //                 $categoryList.append(
-    //                     $('<li>')
-    //                         .addClass('answer')
-    //                         .text(
-    //                             question.answer
-    //                         )
-    //                 );
-    //             }
-
-    //             $content.append($categoryList)
-    //         }
-
-    //         setupEvents();
-    //     }
-    // });
-
-    var data = [
-        {
-            "categoryName": "Simple and Most Common",
-            "categoryQuestions": [
-                {
-                    "question": "Question?",
-                    "answer": "Answer",
-                    "tags": []
+                    $categoryList.append(
+                        $('<li>')
+                            .addClass('question')
+                            .data(question.tags)
+                            .append(
+                                $('<h4>')
+                                    .append('<span>')
+                                    .append(document.createTextNode(
+                                        question.question
+                                    ))
+                            )
+                            .append(
+                                $('<div>')
+                                    .addClass('fq_icon')
+                                    .append('<span>')
+                                    .append('<span>')
+                            )
+                    );
+                    $categoryList.append(
+                        $('<li>')
+                            .addClass('answer')
+                            .text(
+                                question.answer
+                            )
+                    );
                 }
-            ]
-        },
 
-        {
-            "categoryName": "Banana",
-            "categoryQuestions": [
-                {
-                    "question": "Question?",
-                    "answer": "Answer",
-                    "tags": []
-                },
-                {
-                    "question": "Question?",
-                    "answer": "Answer",
-                    "tags": []
-                },
-                {
-                    "question": "Question?",
-                    "answer": "Answer",
-                    "tags": []
-                }
-            ]
+                $content.append($categoryList)
+            }
+
+            setupEvents();
         }
-    ];
-
-    for (let i = 0; i < data.length; i++) {
-        const questionCategory = data[i];
-
-        $content.append(
-            $('<h2>').text(questionCategory.categoryName)
-        );
-
-        var $categoryList = $('<ul>').addClass('faq')
-        for (let j = 0; j < questionCategory.categoryQuestions.length; j++) {
-            const question = questionCategory.categoryQuestions[j];
-
-            $categoryList.append(
-                $('<li>')
-                    .addClass('question')
-                    .data(question.tags)
-                    .append(
-                        $('<h4>')
-                            .append('<span>')
-                            .append(document.createTextNode(
-                                question.question
-                            ))
-                    )
-                    .append(
-                        $('<div>')
-                            .addClass('fq_icon')
-                            .append('<span>')
-                            .append('<span>')
-                    )
-            );
-            $categoryList.append(
-                $('<li>')
-                    .addClass('answer')
-                    .text(
-                        question.answer
-                    )
-            );
-        }
-
-        $content.append($categoryList)
-    }
+    });
 
     setupEvents();
 }
