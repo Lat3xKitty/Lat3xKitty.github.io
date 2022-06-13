@@ -41,12 +41,32 @@
             {
                 "question": "Does anyone close to you (Family, Friends) know about you Fetishes?",
                 "answer": "My whole Family who live with me know. 2 Stories here.\nMy Parents know because of I bought an Item off eBay which wasn't labelled to who the item was for. Inside was a Latex Item which was a pair of Short Shorts with the words 'Spank It' on the bum... That was a bad experience explaining it.\nMy Sister knows after being in my Black Catsuit while in VR. She just knocked and barged into my room and saw me there and then... She was fine, but scared her a little bit.",
-                "tags": ["latex", "know", "family", "friends"]
+                "tags": ["latex", "know", "family", "friends", "lifestyle"]
             },
             {
                 "question": "Why do I use Chlorinated Latex?",
                 "answer": "Cause I life with my Parents, this just makes it easier for me to hide the Latex. (Less Smell, Easier to get into, Easier cleaning)",
-                "tags": []
+                "tags": ["latex", "chlorination", "chlorinated", "lifestyle"]
+            },
+            {
+                "question": "What's the next Latex Item(s) do you want to get?",
+                "answer": "This is ALWAYS changing so there is never a good answer I can give. But cosplay Catsuits are something I'm always looking at buying but they're just a bit too expensive to buy so many of them.",
+                "tags": ["latex", "purchase"]
+            },
+            {
+                "question": "Vacbed? Ever tried or would you?",
+                "answer": "I've yet to try it, but 100% open to getting to go inside one.",
+                "tags": ["latex", "vacbed"]
+            },
+            {
+                "question": "What's your suggestion for a first Latest Item?",
+                "answer": "Gloves/Stockings are typically my recommendation as they provide the 'most feeling' on the person and gloves especially can be used for interaction. If you want to go bigger, Pants (underwear) / Shorts / Skirt / Top are good but don't have to spend everything.",
+                "tags": ["latex", "first", "item"]
+            },
+            {
+                "question": "Would you ever go to Latex related Events?",
+                "answer": "I'd love to go to them, but due to Work, and my social anxiety, I feel I'd really struggle to go to them. I have gone to some stuff like Latex Pop-up shops and Le Boutique Bazaar in London before.",
+                "tags": ["latex", "events"]
             }
         ]
     },
@@ -66,9 +86,14 @@
         "categoryName": "General / Other stuff",
         "categoryQuestions": [
             {
-                "question": "Nothing just yet, will add more later",
-                "answer": "",
+                "question": "Would you date a follower?",
+                "answer": "Possibly. Ultimately I don't want to have someone see me entirely for my Instagram/Twitter account and see me more as me. There's more to me than what you see on my social accounts.",
                 "tags": []
+            },
+            {
+                "question": "Where do I get my stuff from?",
+                "answer": "It will ultimately vary between everything, but typically from the Official Manufacters or eBay. Obviously I've had a few fans offer me stuff like Gloves & I've got a few items custom made. Check the Description as I typically provide some details about the item(s) there.",
+                "tags": ["latex", "gloves", "shopping", "where", "purchase"]
             }
         ]
     }
