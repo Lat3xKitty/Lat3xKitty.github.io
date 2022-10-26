@@ -240,15 +240,15 @@ a {
     margin-top: var(--bs-gutter-y);
 }
 
-@media (min-width: 768px) {
-    .col-md-3 {
-        flex: 0 0 auto;
-        width: 25%;
-    }
-}
 @media (min-width: 576px) {
     .col-sm-6 {
         flex: 0 0 auto;
         width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
     }
 }
